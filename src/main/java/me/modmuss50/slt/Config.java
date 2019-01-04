@@ -1,4 +1,4 @@
-package me.modmuss50.mms;
+package me.modmuss50.slt;
 
 import reborncore.common.registration.RebornRegistry;
 import reborncore.common.registration.impl.ConfigRegistry;

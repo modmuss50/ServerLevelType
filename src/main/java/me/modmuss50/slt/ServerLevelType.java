@@ -1,11 +1,11 @@
-package me.modmuss50.mms;
+package me.modmuss50.slt;
 
 import net.minecraft.server.dedicated.PropertyManager;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import java.io.File;
 
-@Mod(modid = "serverleveltype", name = "Server Level Type", serverSideOnly = true, dependencies = "required-after:reborncore")
+@Mod(modid = "serverleveltype", name = "Server Level Type", serverSideOnly = true, acceptableRemoteVersions = "*", dependencies = "required-after:reborncore")
 public class ServerLevelType {
 
 	@Mod.EventHandler
